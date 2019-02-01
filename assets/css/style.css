@@ -7,6 +7,7 @@ body {
   background-color: #4aaaa5;
   color: #ffffff;
   box-sizing: border-box;
+  padding: 0.5em;
 }
 
 h1 {
@@ -31,6 +32,7 @@ h1 {
 #mainheader {
   background-color: #ffffff;
   color: #4aaaa5;
+  padding: 0.5em;
 }
 
 #mypicture {
