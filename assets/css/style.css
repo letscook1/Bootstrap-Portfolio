@@ -50,14 +50,3 @@ h1 {
   bottom: 0;
   overflow: hidden;
 }
-@media (max-width: 767px) {
-
-}
-
-@media (min-width: 768px) {
-  /*.navbar-nav {
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-    float:none;
-  }*/
