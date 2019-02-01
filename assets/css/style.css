@@ -1,6 +1,7 @@
 body {
   color: #777777;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  background-image: url("../images/arches.png");
 }
 
 #myname {
@@ -33,6 +34,10 @@ h1 {
   background-color: #ffffff;
   color: #4aaaa5;
   padding: 0.5em;
+}
+
+.container {
+  background-color: #ffffff;
 }
 
 #mypicture {
