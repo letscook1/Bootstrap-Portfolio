@@ -47,12 +47,10 @@ h1 {
   background-color: #ffffff;
 }
 
-#bio {
-  margin: 1%;
-}
-
-#mainform {
-  margin: 1%;
+#bio,
+#mainform,
+.portfolio {
+  margin: 1.5%;
 }
 
 #mypicture {
