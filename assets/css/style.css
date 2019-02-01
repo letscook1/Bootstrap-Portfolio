@@ -17,7 +17,6 @@ body {
 
 h1 {
   font-family: "Georgia", Times, Times New Roman, serif;
-  background-color: "background-color: #4aaaa5;";
   font-weight: bold;
 }
 
@@ -47,6 +46,10 @@ h1 {
 }
 
 #bio {
+  margin: 1%;
+}
+
+#mainform {
   margin: 1%;
 }
 
