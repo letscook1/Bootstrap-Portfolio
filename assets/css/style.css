@@ -4,6 +4,10 @@ body {
   background-image: url("../images/arches.png");
 }
 
+#mainnav {
+  width: 100%;
+}
+
 #myname {
   background-color: #4aaaa5;
   color: #ffffff;
@@ -34,10 +38,16 @@ h1 {
   background-color: #ffffff;
   color: #4aaaa5;
   padding: 0.5em;
+  width: 100%;
+  border-bottom: solid #cccccc 0.03em;
 }
 
 .container {
   background-color: #ffffff;
+}
+
+#bio {
+  margin: 1%;
 }
 
 #mypicture {
