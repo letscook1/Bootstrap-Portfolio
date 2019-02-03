@@ -113,15 +113,4 @@ h4 {
   z-index: 4;
 }
 
-/*I don't know why I can't get the headers to line up correctly with the images. I wanted to try a different way of doing it than I used in my basic portfolio and responsivve and it does not work as well. At least I tried something different but I prefer my way of making the links a background image instead of dealing with image inside of the html*/
-@media screen and (max-width: 768px) {
-  .portfoliotitle {
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .portfoliotitle {
-    width: 92%;
-  }
-}
+/*I don't know why I can't get the headers ".portfoliotitles" to line up correctly with the images. I wanted to try a different way of doing it than I used in my basic portfolio and responsivve and it does not work as well. At least I tried something different but I prefer my way of making the links a background image instead of dealing with image inside of the html*/
