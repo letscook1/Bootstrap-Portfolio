@@ -96,6 +96,10 @@ h1 {
   width: 93.43%;
 }
 
+h4 {
+  font-size: 1.1em;
+}
+
 #mainfooter {
   clear: both;
   background-color: #666666;
