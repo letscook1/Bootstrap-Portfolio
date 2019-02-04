@@ -13,21 +13,7 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"
-    ></script>
+
     <!--Personal CSS-->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -39,13 +25,13 @@
           ><h1>Michelle Williams</h1></a
         >
         <button
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        type="button"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          type="button"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -69,55 +55,89 @@
 
     <!--Portfolio-->
     <div class="container" id="mainportfolio">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="page-header" id="mainheader"><h2>Portfolio</h2></div>
+        </div>
+      </div>
+
+      <div class="portfolio">
         <div class="row">
-            <div class="col-sm-12">
-            <div class="page-header" id="mainheader"><h2>Portfolio</h2></div>
+          <div class="col-sm-5">
+            <a class="portfoliolink" href="#" target="_blank">
+              <img
+                src="assets/images/hangman.jpg"
+                class="rounded mx-auto d-block pics"
+                alt="hangman"
+              />
+              <h4 class="portfoliotitle">Hangman</h4>
+            </a>
+          </div>
+          <div class="col-sm-5">
+            <a class="portfoliolink" href="#" target="_blank">
+              <img
+                src="assets/images/rpg.jpg"
+                class="rounded mx-auto d-block pics"
+                alt="rpggame"
+              />
+              <h4 class="portfoliotitle">RPG Game</h4>
+            </a>
           </div>
         </div>
-    
-        <div class=portfolio>
-      <div class="row">
-        <div class="col-sm-5">
-            <a class="portfoliolink" href="#" target="_blank">
-              <img src="assets/images/hangman.jpg" class="rounded mx-auto d-block pics" alt="hangman" >
-                <h4 class="portfoliotitle">Hangman</h4>
-            </a>
-        </div>
-        <div class="col-sm-5">
-            <a class="portfoliolink" href="#" target="_blank">
-              <img src="assets/images/rpg.jpg" class="rounded mx-auto d-block pics" alt="rpggame" >
-                <h4 class="portfoliotitle">RPG Game</h4>
-            </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-5">
-            <a class="portfoliolink" href="#" target="_blank">
-              <img src="assets/images/trivia.jpg" class="rounded mx-auto d-block pics" alt="trivia" >
-                <h4 class="portfoliotitle">Trivia Game</h4>
-            </a>
-        </div>
-        <div class="col-sm-5">
-            <a class="portfoliolink" href="#" target="_blank">
-              <img src="assets/images/widget.jpg" class="rounded mx-auto d-block pics" alt="widget" >
-                <h4 class="portfoliotitle">Rutgers Info Widget</h4>
-            </a>
-        </div>
-      </div>
-      <div class="row">
+        <div class="row">
           <div class="col-sm-5">
-              <a class="portfoliolink" href="#" target="_blank">
-                <img src="assets/images/rockpaperscissors.jpg" class="rounded mx-auto d-block pics" alt="rockpaperscissors" >
-                  <h4 class="portfoliotitle">Rock Paper Scissors</h4>
-              </a>
+            <a class="portfoliolink" href="#" target="_blank">
+              <img
+                src="assets/images/trivia.jpg"
+                class="rounded mx-auto d-block pics"
+                alt="trivia"
+              />
+              <h4 class="portfoliotitle">Trivia Game</h4>
+            </a>
+          </div>
+          <div class="col-sm-5">
+            <a class="portfoliolink" href="#" target="_blank">
+              <img
+                src="assets/images/widget.jpg"
+                class="rounded mx-auto d-block pics"
+                alt="widget"
+              />
+              <h4 class="portfoliotitle">Rutgers Info Widget</h4>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <a class="portfoliolink" href="#" target="_blank">
+              <img
+                src="assets/images/rockpaperscissors.jpg"
+                class="rounded mx-auto d-block pics"
+                alt="rockpaperscissors"
+              />
+              <h4 class="portfoliotitle">Rock Paper Scissors</h4>
+            </a>
           </div>
         </div>
       </div>
     </div>
-      <!--Footer-->
-      <div class="card text-center" id="mainfooter">
-          <div class="card-footer">Copyright &#169; 2019 Michelle Williams</div>
-        </div>
-      </body>
+    <!--Footer-->
+    <div class="card text-center" id="mainfooter">
+      <div class="card-footer">Copyright &#169; 2019 Michelle Williams</div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
